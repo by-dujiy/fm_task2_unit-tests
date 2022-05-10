@@ -1,1 +1,1 @@
-from .unit_tests import TestAnagrams
+from unit_tests import TestAnagrams
