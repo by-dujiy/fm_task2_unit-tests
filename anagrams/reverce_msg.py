@@ -10,7 +10,7 @@ def str_reverse(str_obj):
 
 
 def phrase_anagram(str_obj):
+    str_obj = str(str_obj)
     word_list = str_obj.split(' ')
     reverse_list = [str_reverse(word) for word in word_list]
     return ' '.join(reverse_list)
-
